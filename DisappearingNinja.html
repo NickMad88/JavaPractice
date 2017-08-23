@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="disNinja.css" rel="stylesheet">
+        <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script>   
+            $(document).ready(function(){
+                
+                $('.ninjapic').click(function(){
+                    $(this).fadeOut(0,0);
+                });
+                $("button").click(function(){
+                    $("img").show();
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="picwrapper">
+                <img class="ninjapic" src="ninja.jpg" alt="nina">
+                <img class="ninjapic" src="ninja.jpg" alt="nina">
+                <img class="ninjapic" src="ninja.jpg" alt="nina">
+                <img class="ninjapic" src="ninja.jpg" alt="nina">
+                <img class="ninjapic" src="ninja.jpg" alt="nina">
+                <img class="ninjapic" src="ninja.jpg" alt="nina">
+                <img class="ninjapic" src="ninja.jpg" alt="nina">
+                <img class="ninjapic" src="ninja.jpg" alt="nina">
+            </div>
+            <button id="reset">Restore!</button>
+        </div>
+    </body>
+</html>
