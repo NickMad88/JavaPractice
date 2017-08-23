@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="jQuery.css" rel="stylesheet">
+        <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script>   
+            $(document).ready(function(){
+                
+                $('#button1').click(function(){
+                    $('.SectionText').addClass("red");
+                });
+
+                $('#button2').click(function(){
+                    $('.SectionText').slideToggle("slow");
+                });
+
+
+
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="container">
+                <button id="button1">
+                    AddClass
+                </button>
+                <p class="SectionTitle">
+                    AddClass
+                </p>
+                <p class="SectionText">
+                    Click the button to add class 'red' to this paragraph
+                </p>
+            </div>
+            <div class="container">
+                <button id="button2">
+                    Slidetoggle
+                </button>
+                 <p class="SectionTitle">
+                    Slidetoggle
+                </p>
+                <p class="SectionText">
+                    Click the button to slidetoggle a hidden image
+                </p>
+            </div>
+            <div class="container">
+                <button id="button3">
+                     Append
+                </button>
+                <p class="SectionTitle">
+                    Append
+                </p>
+                <p class="SectionText">
+                    Click the button to append a new paragraph
+                </p>
+            </div>
+            <div class="container">
+                <button id="button4">
+                     Hide
+                </button>
+                <p class="SectionTitle">
+                     Hide
+                </p>
+                <p class="SectionText">
+                    Click the button to hide this paragraph
+                </p>
+            </div>
+            <div class="container">
+                <button id="button5">
+                     Show
+                </button>
+                <p class="SectionTitle">
+                    Show
+                </p>
+                <p class="SectionText">
+                    Click the button to show the paragraph above
+                </p>
+            </div>
+            <div class="container">
+                <button id="button6">
+                    Fadein
+                </button>
+                <p class="SectionTitle">
+                    Fadein
+                </p>
+                <p class="SectionText">
+                    Click the button to have this paragraph fade in
+                </p>
+            </div>
+            <div class="container">
+                <button id="button7">
+                    Toggle
+                </button>
+                <p class="SectionTitle">
+                    Toggle
+                </p>
+                <p class="SectionText">
+                    Click the button to toggle this paragraph
+                </p>
+            </div>
+            <div class="container">
+                <button id="button8">
+                    slideDown
+                </button>
+                <p class="SectionTitle">
+                    slideDown
+                </p>
+                <p class="SectionText">
+                    Click the button to slideDown the paragraph!
+                </p>
+            </div>
+            <div class="container">
+                <button id="button9">
+                    slideUp
+                </button>
+                <p class="SectionTitle">
+                    slideUp
+                </p>
+                <p class="SectionText">
+                    Click the button to slideUp the paragraph!
+                </p>
+            </div>
+            <div class="container">
+                <button id="button10">
+                    Text
+                </button>
+                <p class="SectionTitle">
+                    Text
+                </p>
+                <p class="SectionText">
+                    Click the button to add to the paragraph!
+                </p>
+            </div>
+            <div class="container">
+                <button id="button11">
+                    Data
+                </button>
+                <p class="SectionTitle">
+                    Data
+                </p>
+                <p class="SectionText">
+                    Click the button to data something!
+                </p>
+            </div>
+            
+        </div>
+    
+    </body>
+</html>

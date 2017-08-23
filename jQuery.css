@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: 970px;
+    height: 970px;
+    background-color: black;
+}
+.container{
+    width: 970;
+    height: 150px;
+    background-color: gray;
+    border: 1px solid black;
+}
+#button1{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+#button2{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+#button3{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+#button4{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+#button5{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+#button6{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+#button7{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+#button8{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+#button9{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+#button10{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+#button11{
+    width: 100px;
+    height: 75px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    left: -40px;
+}
+.SectionTitle{
+    font-weight: bold;
+    font-size: 20pt;
+    color: black;
+    display: inline;
+    position: relative;
+    left: 250px;
+}
+.SectionText{
+    font-size: 20pt;
+    color: black;
+    display: block;
+    position: relative;
+    left: 300px;
+}
+.red{
+    color: red;
+}
