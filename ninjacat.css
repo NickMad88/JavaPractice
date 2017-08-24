@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#pic1{
+    width: 200px;
+    height: 100px;
+    display: block;
+    border: 1px solid black;
+    margin: 5px;
+}

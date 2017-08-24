@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="ninjacat.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                
+                $('img').click(function(){
+                    
+                    var temp = $(this).attr('data-alt-src');
+                    $(this).attr('src', temp);
+
+
+                    console.log($(this).attr('src'));
+                    
+                });
+
+            });
+
+        </script>
+    </head>
+    <body>
+        <img id=pic1 src="ninjaimg/ninja0.png" data-alt-src='ninjaimg/cat0.png'>
+        <img id=pic1 src="ninjaimg/ninja1.png" data-alt-src='ninjaimg/cat1.png'>
+        <img id=pic1 src="ninjaimg/ninja2.png" data-alt-src='ninjaimg/cat2.png'>
+        <img id=pic1 src="ninjaimg/ninja3.png" data-alt-src='ninjaimg/cat3.png'>
+        <img id=pic1 src="ninjaimg/ninja4.png" data-alt-src='ninjaimg/cat4.png'>
+        
+    </body>
+</html>
