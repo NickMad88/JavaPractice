@@ -1,0 +1,19 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+table,td,tr,th{
+	
+	border: 1px solid black;
+	text-align: left;
+}
+#table{
+	width: 400px;
+}
+#form1{
+	display: block;
+}
+#form{
+	margin-top: 30px;
+	width: 100px;
+}
