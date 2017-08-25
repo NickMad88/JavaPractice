@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Pokeon</title>
+	<link rel="stylesheet" type="text/css" href="pokemon.css">
+	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+	<script>
+		$(document).ready(function(){
+          var pokeurl = '<img src="http://pokeapi.co/media/img/';
+          for(var i = 1;i <= 151;i++){
+            $("#wrapper").append(pokeurl + i + '.png">');
+            console.log(pokeurl + i + ".png>");
+          }
+        });
+	</script>
+</head>
+<body>
+   
+    <div id="wrapper">
+
+ 
+        
+
+    </div>
+</body>
+</html>
