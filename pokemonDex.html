@@ -8,11 +8,12 @@
           var pokeurl = '<img src="http://pokeapi.co/media/img/';
           for(var i = 1;i <= 151;i++){
             $("#pokeList").append(pokeurl + i + '.png">');
-            console.log(pokeurl + i + ".png>");
+            // console.log(pokeurl + i + ".png>");
           }
     });
-    $(document).on('click', this, function(){
-          
+    $(document).on('click', 'img', function(){
+         var test = $(this).attr('src');
+        
     });
 	</script>
 </head>
