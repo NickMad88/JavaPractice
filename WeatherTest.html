@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>WeatherTest</title>
+	<link rel="stylesheet" type="text/css" href="">
+	<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+	<script>
+		$(document).ready(function(){
+             var apilink1 = "http://api.openweathermap.org/data/2.5/weather?q=";
+             var apilink2 = ",us&&appid=";
+             var mykey = "d15a70e0b22fed356f38cc94b6b8a339";
+             console.log("asdasd");
+
+             $('form').submit(function(){
+                $("#pokeDex").html("");
+                var city = $("input#cityname").val();
+                console.log("hello");
+                console.log(city);
+
+                $.get(apilink1 + city + apilink2 + mykey, function(res) {
+                    $("#pokeDex").append(res.name + "<br>");
+                    $("#pokeDex").append(res.main.temp);
+
+                }, "json");
+
+             return false;
+            });
+        });
+
+
+	</script>
+</head>
+<body>
+   
+    <div id="pokeList">
+            <form id="firstform">
+                City Name: <input type="text" name ="cityname" id="cityname"><br>
+                <input type="submit" value="Submit">
+              </form>
+    </div>
+    <div id="pokeDex">
+    </div>
+
+</body>
+</html>
